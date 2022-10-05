@@ -19,7 +19,7 @@ const renderCountries = async () => {
         cloneCard.querySelector('#country-name').innerHTML = element.name;
         cloneCard.querySelector('#capital').innerHTML = `Capital: ${element.capital}`
         cloneCard.querySelector('#language').innerHTML = `Languages: ${languages.join(', ')}`
-        cloneCard.querySelector('#population').innerHTML = `Population: ${element.population.toLocaleString('pt-BR', {maximumFractionDigits: 2})}`
+        cloneCard.querySelector('#population').innerHTML = `Population: ${element.population}`
         countriesArea.appendChild(cloneCard)
     });
     renderGraphics()
@@ -81,11 +81,12 @@ filterPopulationButton.addEventListener('click', () => {
     });
     order = !order;
     elements.sort((a, b) => {
-        const x = a.children[4].innerText.replace('Population: ', '');
-        const y = b.children[4].innerText.replace('Population: ', '');
+        const x = parseInt(a.children[4].innerText.replace('Population: ', ''));
+        const y = parseInt(b.children[4].innerText.replace('Population: ', ''));
+        
         return order ? x - y : y - x;
     })
-
+    
     if (order === false) {
         filterPopulationButton.innerText = 'Population ⬆️'
     } else {
