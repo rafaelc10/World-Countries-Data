@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Javascript</title>
+</head>
+<div class="models">
+    <div class="country-card">
+        <img src="" />
+        <span id="country-name"></span>
+        <span id="capital"></span>
+        <span id="language"></span>
+        <span id="population"></span>
+    </div>
+</div>
+<header>
+    <h1>World Countries Data</h1>
+</header>
+<section id="search">
+    <input type="search" placeholder="Search country, capital" />
+    <div class="search-filter">
+        <button id="filter-name">Name</button>
+        <button id="filter-capital">Capital</button>
+        <button id="filter-population">Population</button>
+        <a href="#graphics"><i class="fa-solid fa-chart-bar"></i></a>
+    </div>
+</section>
+
+<main>
+    <section id="countries"></section>
+    <section id="graphics-menu">
+        <div class="graphics-buttons">
+            <button id="filter-graphic-population">Population</button>
+            <button id="filter-graphic-languages">Languages</button>
+        </div>
+        <div class="graphics_span">
+            <span id="graphic-span">World Population</span>
+        </div>
+    </section>
+    <section id="graphics">
+        <div class="graphics-data">
+            <div class="graphic-line">
+                <span class="graphic-line-name"></span>
+                <div class="graphic-line-bar">
+                    <div class="graphic-line-bar2"></div>
+                </div>
+                <span class="graphic-line-data"></span>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="./assets/js/data.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
