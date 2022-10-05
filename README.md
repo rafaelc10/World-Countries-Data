@@ -19,7 +19,7 @@ Página do Exercício [30 Days Of JavaScript: Final Projects](https://github.com
 ## :eyes: Site de demonstração
 ![Githubpages](https://img.shields.io/badge/githubpages-%23000000.svg?style=for-the-badge&logo=github)
 
-Você pode acessar o site [aqui.](https://rafaelc10.github.io/world-countries-data/)
+Você pode acessar o site [aqui.](https://rafaelc10.github.io/World-Countries-Data/)
 
 
 ## :memo: Licença
