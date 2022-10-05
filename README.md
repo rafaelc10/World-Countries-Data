@@ -5,7 +5,7 @@
 <h1 align="center">World Countries Data<h1>
 
 <p align="center">
-  <img width="100%" style="max-width:100%" src="https://github.com/rafaelc10/world-countries-data/blob/main/assets/images/worldcountriesdata-mockup.png">
+  <img width="100%" style="max-width:100%" src="https://github.com/rafaelc10/World-Countries-Data/blob/master/assets/images/worldcountriesdata-mockup.png">
 </p>
 
 ## :computer: Projeto
