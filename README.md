@@ -9,7 +9,7 @@
 </p>
 
 ## :computer: Projeto
-Projeto realizado com objetivo de aprimorar e testar os conhecimentos em HTML5 e CSS 3.
+Projeto realizado com objetivo de aprimorar e testar os conhecimentos em HTML5 e CSS 3.<br>
 Exercício do [*30 Days Of JavaScript*](https://github.com/Asabeneh/30-Days-Of-JavaScript).<br>
 Página do Exercício [30 Days Of JavaScript: Final Projects](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/30_Day_Mini_project_final/30_day_mini_project_final.md).
 
